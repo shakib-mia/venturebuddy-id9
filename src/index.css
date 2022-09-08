@@ -1,13 +1,206 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.app{
+    padding:0px 68px 0px 68px;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* navbar */
+
+.navbar-brand{
+    margin-top: 16px;
+}
+
+.nav-link,.nav-link:disabled{
+    padding-right: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #6D747A;
+}
+
+.nav .btn-custom{
+    margin-left: 8 px;
+    background-color: #39B54A;
+    color: #E9EBF4;
+    padding: 16px 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    
+}
+
+/* heading */
+
+.heading{
+    padding:68px 0 24px 0;
+}
+
+.heading .title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.heading .sub-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #6D747A;
+}
+
+/* options */
+
+.options{
+    width: 756px;
+    height: 88px;
+    background: #F8F9FA;
+    border-radius: 12px 12px 0px 0px;
+    padding: 24px 0px 24px 24px;
+    gap: 16px;
+}
+
+#search{
+    height: 40px;
+    width: 272px;
+    border-radius: 20px;
+}
+
+.search-icon{
+    position: relative;
+    top: 12px;
+    left: 43px;
+}
+
+.options .btn{
+    background-color: white;
+    padding: 7px 24px 7px 24px;
+}
+
+
+/* live */
+
+.livedeals{
+    padding-top: 32px;
+}
+.livedeals .title{
+
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+
+}
+
+.livedeals .sub-title{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #6D747A;
+    padding-bottom: 24px;
+
+}
+
+/* cards */
+
+.card{
+    height: 454px;
+    width: 410px;
+    margin-bottom: 37px;
+}
+
+.card-title{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #08090A;
+    padding-top: 45px;
+}
+
+.card-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #6D747A;
+    padding-bottom: 70px;
+}
+
+.card .btn-custom{
+
+height: 28px;
+padding: 4px 8px;
+margin-right: 8px;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+text-transform: uppercase;
+color: #283891;
+background: #E9EBF4;
+border-radius: 4px;
+}
+
+.card .profile{
+    position: absolute;
+    top: 173px;
+    left: 16px;
+}
+
+.card .closed{
+    position: absolute;
+    width: 88px;
+    height: 32px;
+    background: #EBEDF0;
+    border-radius: 4px;
+    margin-top:17px ;
+    margin-left: 16px;
+    padding: 4px 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #08090A;
+}
+
+/* faq */
+
+.faq{
+    padding-top: 120px;
+}
+.faq .title{
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #283891;
+}
+
+.accordion{
+    padding:50px 360px 70px 360px;
+}
+
+.accordion-button:focus{
+    background-color: white;
+}
+
+.footer{
+
+height: 220px;
+background: #283891;
+margin: 0px;
+padding: 0%;
+}
+
+.footer .text{
+    padding: 115px 0px 89px 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
