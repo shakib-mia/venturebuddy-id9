@@ -1,22 +1,37 @@
-.app{
-    padding:0px 68px 0px 68px;
+.app {
+    padding: 0px 68px 0px 68px;
+}
 
+.btn-outline-dark-blue {
+    padding: 16px 24px;
+    background-color: #fff;
+    border: 1px solid #0F1F78;
+    color: #0F1F78;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-outline-dark-blue:hover {
+    background-color: #0F1F78;
+    color: white;
+    transition: all .3s;
 }
 
 /* navbar */
 
-.navbar-brand{
+.navbar-brand {
     margin-top: 16px;
 }
 
-.nav-link,.nav-link:disabled{
+.nav-link,
+.nav-link:disabled {
     padding-right: 32px;
     font-size: 16px;
     font-weight: 500;
     color: #6D747A;
 }
 
-.nav .btn-custom{
+.nav .btn-custom {
     margin-left: 8 px;
     background-color: #39B54A;
     color: #E9EBF4;
@@ -25,23 +40,23 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
-    
+
 }
 
 /* heading */
 
-.heading{
-    padding:68px 0 24px 0;
+.heading {
+    padding: 68px 0 24px 0;
 }
 
-.heading .title{
+.heading .title {
     font-weight: 600;
     font-size: 48px;
     line-height: 56px;
     color: #000000;
 }
 
-.heading .sub-title{
+.heading .sub-title {
     font-weight: 500;
     font-size: 18px;
     line-height: 26px;
@@ -50,7 +65,7 @@
 
 /* options */
 
-.options{
+.options {
     width: 756px;
     height: 88px;
     background: #F8F9FA;
@@ -59,19 +74,19 @@
     gap: 16px;
 }
 
-#search{
+#search {
     height: 40px;
     width: 272px;
     border-radius: 20px;
 }
 
-.search-icon{
+.search-icon {
     position: relative;
     top: 12px;
     left: 43px;
 }
 
-.options .btn{
+.options .btn {
     background-color: white;
     padding: 7px 24px 7px 24px;
 }
@@ -79,10 +94,11 @@
 
 /* live */
 
-.livedeals{
+.livedeals {
     padding-top: 32px;
 }
-.livedeals .title{
+
+.livedeals .title {
 
     font-weight: 600;
     font-size: 32px;
@@ -91,7 +107,7 @@
 
 }
 
-.livedeals .sub-title{
+.livedeals .sub-title {
 
     font-style: normal;
     font-weight: 500;
@@ -104,13 +120,13 @@
 
 /* cards */
 
-.card{
+.card {
     height: 454px;
     width: 410px;
     margin-bottom: 37px;
 }
 
-.card-title{
+.card-title {
 
     font-style: normal;
     font-weight: 600;
@@ -120,7 +136,7 @@
     padding-top: 45px;
 }
 
-.card-text{
+.card-text {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -129,33 +145,33 @@
     padding-bottom: 70px;
 }
 
-.card .btn-custom{
+.card .btn-custom {
 
-height: 28px;
-padding: 4px 8px;
-margin-right: 8px;
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-text-transform: uppercase;
-color: #283891;
-background: #E9EBF4;
-border-radius: 4px;
+    height: 28px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #283891;
+    background: #E9EBF4;
+    border-radius: 4px;
 }
 
-.card .profile{
+.card .profile {
     position: absolute;
     top: 173px;
     left: 16px;
 }
 
-.card .closed{
+.card .closed {
     position: absolute;
     width: 88px;
     height: 32px;
     background: #EBEDF0;
     border-radius: 4px;
-    margin-top:17px ;
+    margin-top: 17px;
     margin-left: 16px;
     padding: 4px 12px;
     font-style: normal;
@@ -168,10 +184,11 @@ border-radius: 4px;
 
 /* faq */
 
-.faq{
+.faq {
     padding-top: 120px;
 }
-.faq .title{
+
+.faq .title {
 
     font-style: normal;
     font-weight: 600;
@@ -182,23 +199,49 @@ border-radius: 4px;
     color: #283891;
 }
 
-.accordion{
-    padding:50px 360px 70px 360px;
+.accordion {
+    padding: 50px 360px 70px 360px;
 }
 
-.accordion-button:focus{
+.accordion-button:focus {
     background-color: white;
 }
 
-.footer{
-
-height: 220px;
-background: #283891;
-margin: 0px;
-padding: 0%;
+.accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
 }
 
-.footer .text{
+.accordion-button::after {
+    background-image: url("./components/utils/accordion-arrow.png");
+    background-position-y: 7px;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+    background-image: url("./components/utils/accordion-arrow.png");
+    color: white;
+}
+
+.accordion-button[aria-expanded="true"] {
+    color: #283891;
+}
+
+.accordion-body {
+    padding-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer {
+
+    height: 220px;
+    background: #283891;
+    margin: 0px;
+    padding: 0%;
+}
+
+.footer .text {
     padding: 115px 0px 89px 0px;
     color: white;
     display: flex;
