@@ -8,7 +8,10 @@ const FAQ = () => {
         Frequently Asked Questions
       </div>
 
-      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div
+        class="accordion accordion-flush col-md-6 mx-auto"
+        id="accordionFlushExample"
+      >
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button
@@ -29,11 +32,14 @@ const FAQ = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Aliquid hic incidunt rem mollitia cupiditate praesentium officia
-                nobis libero facilis quos.
-              </p>
+              <div className="d-flex align-items-center">
+                <div className="hr"></div>
+                <p className="mb-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquid hic incidunt rem mollitia cupiditate praesentium
+                  officia nobis libero facilis quos.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -57,11 +63,14 @@ const FAQ = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
-                hic cumque voluptas animi dolorum qui fugit debitis quis sed
-                amet.
-              </p>
+              <div className="d-flex align-items-center">
+                <div className="hr"></div>
+                <p className="mb-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquid hic incidunt rem mollitia cupiditate praesentium
+                  officia nobis libero facilis quos.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -85,12 +94,14 @@ const FAQ = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
-              {" "}
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-                doloremque facere placeat. Omnis suscipit perferendis est amet
-                et. Ipsam, nisi!
-              </p>{" "}
+              <div className="d-flex align-items-center">
+                <div className="hr"></div>
+                <p className="mb-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquid hic incidunt rem mollitia cupiditate praesentium
+                  officia nobis libero facilis quos.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -114,9 +125,14 @@ const FAQ = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
-              {" "}
-              Based on the data provided by you, we use globally accepted
-              scientific methods and various metrics to carry out the valuation.{" "}
+              <div className="d-flex align-items-center">
+                <div className="hr"></div>
+                <p className="mb-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquid hic incidunt rem mollitia cupiditate praesentium
+                  officia nobis libero facilis quos.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -140,9 +156,14 @@ const FAQ = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div class="accordion-body">
-              {" "}
-              Based on the data provided by you, we use globally accepted
-              scientific methods and various metrics to carry out the valuation.{" "}
+              <div className="d-flex align-items-center">
+                <div className="hr"></div>
+                <p className="mb-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Aliquid hic incidunt rem mollitia cupiditate praesentium
+                  officia nobis libero facilis quos.
+                </p>
+              </div>
             </div>
           </div>
         </div>
